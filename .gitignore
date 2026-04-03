@@ -1,0 +1,20 @@
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary Files
+tmp/
+temp/
+*.log
+
+# Project Documentation
+implementation_plan.md
+task.md
+walkthrough.md

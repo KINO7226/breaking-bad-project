@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad | Neo-Western Tribute</title>
+    <meta name="description" content="A professional, cinematic Breaking Bad tribute project featuring a DEA database style UI.">
+    <!-- Google Fonts: Anton for bold industrial headings, Roboto Condensed for UI texts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-mode">
+    <!-- Cinematic Overlays effect elements -->
+    <div id="grain-overlay"></div>
+    <div id="smoke-overlay" class="hidden"></div>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="assets/images/ui/logo.png" alt="Breaking Bad Logo" class="main-logo">
+        </div>
+        <nav>
+            <ul class="periodic-nav">
+                <li><a href="#home" class="nav-item" data-view="home">
+                    <span class="number">1</span>
+                    <span class="symbol">Ho</span>
+                    <span class="info">
+                        <span class="full-name">Home</span>
+                        <span class="weight">1.008</span>
+                    </span>
+                </a></li>
+                <li><a href="#characters" class="nav-item" data-view="characters">
+                    <span class="number">6</span>
+                    <span class="symbol">Ch</span>
+                     <span class="info">
+                        <span class="full-name">Characters</span>
+                        <span class="weight">12.011</span>
+                    </span>
+                </a></li>
+                <li><a href="#seasons" class="nav-item" data-view="seasons">
+                    <span class="number">34</span>
+                    <span class="symbol">Se</span>
+                     <span class="info">
+                        <span class="full-name">Seasons</span>
+                        <span class="weight">78.971</span>
+                    </span>
+                </a></li>
+                <li><a href="#gallery" class="nav-item" data-view="gallery">
+                    <span class="number">31</span>
+                    <span class="symbol">Ga</span>
+                     <span class="info">
+                        <span class="full-name">Gallery</span>
+                        <span class="weight">69.723</span>
+                    </span>
+                </a></li>
+                <li><a href="#trivia" class="nav-item" data-view="trivia">
+                    <span class="number">99</span>
+                    <span class="symbol">Tr</span>
+                     <span class="info">
+                        <span class="full-name">Trivia</span>
+                        <span class="weight">99.1%</span>
+                    </span>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="app-container">
+        <!-- SPA views will be rendered here dynamically -->
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
