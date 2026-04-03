@@ -1432,3 +1432,184 @@ h1, h2, h3, h4, h5, h6 {
 .trivia-done {
   text-align: center;
 }
+
+/* --- Responsive Media Queries --- */
+
+/* Tablets and small desktops */
+@media (max-width: 1024px) {
+  .home-content {
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .ads-sidebar {
+    max-width: 300px;
+  }
+}
+
+  /* Large Phones and small Tablets */
+@media (max-width: 768px) {
+  .logo-container {
+    position: relative;
+    left: 0 !important;
+    top: 0 !important;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-header {
+    flex-direction: column;
+    padding: 15px 10px;
+    height: auto;
+  }
+
+  .periodic-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #app-container {
+    padding-top: 220px;
+  }
+
+  .home-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-main, .ads-sidebar {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .view-title {
+    font-size: 2rem;
+  }
+
+  .dossier-card.expanded .evidence-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .batch-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .batch-stats {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+  /* Small Phones */
+@media (max-width: 480px) {
+  .periodic-nav {
+    gap: 5px;
+  }
+
+  .nav-item {
+    width: 60px;
+    height: 70px;
+    padding: 5px 8px;
+  }
+
+  .nav-item .symbol {
+    font-size: 1.2rem;
+  }
+
+  .nav-item .full-name {
+    font-size: 0.45rem;
+  }
+
+  #app-container {
+    padding-top: 220px;
+  }
+
+  .transformation-slider {
+    height: 250px;
+  }
+
+  .slide-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .slide-text p {
+    font-size: 0.9rem;
+  }
+
+  .wanted-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mugshot-placeholder {
+    width: 120px;
+    height: 160px;
+  }
+
+  .dossier-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dossier-card.expanded .evidence-content {
+    grid-template-columns: 1fr;
+  }
+
+  .dossier-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .photo-attachment {
+    width: 100px;
+    height: 130px;
+    margin: 0 auto 10px auto;
+  }
+
+  .timeline-content {
+    padding: 20px;
+  }
+
+  .batch-title {
+    font-size: 1.5rem;
+  }
+
+  .polaroid-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .polaroid-frame {
+    width: 280px;
+    height: 350px;
+  }
+
+  .dea-case-file {
+    margin: 10px;
+  }
+
+  .case-board {
+    padding: 20px;
+  }
+
+  .case-question h3 {
+    font-size: 1.1rem;
+  }
+
+  .case-btn {
+    font-size: 0.95rem;
+    padding: 12px 15px;
+  }
+}
+
+/* Landscape orientation for very small phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .main-header {
+    position: relative;
+  }
+  #app-container {
+    padding-top: 20px;
+  }
+}
